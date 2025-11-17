@@ -24,7 +24,8 @@ def main():
 
     df = pd.DataFrame([metrics])
     df.to_csv("final_metrics.csv", index=False)
-    print("✅ All done! Check `final_metrics.json/csv`.")
+    print("All done! Check `final_metrics.json/csv`.")
 
 if __name__ == "__main__":
+
     main()
